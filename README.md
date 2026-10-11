@@ -119,4 +119,4 @@ Controller tests exercise the Spring application context with mocked providers. 
 
 The successful HTTP boundary test verifies the exact payment amount, seat count and provider call order, with no additional provider calls.
 
-Manual HTTP smoke tests were also performed on a separate laptop to check booking totals and representative invalid requests.
+Manual HTTP smoke tests were also performed to check booking totals and representative invalid requests.
