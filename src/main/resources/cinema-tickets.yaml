@@ -4,11 +4,9 @@ info:
   title: Cinema Tickets Service
   description: Cinema Tickets Service
   version: 0.0.2
-
-license:
-  name: MIT License
-  identifier: MIT
-  url: https://opensource.org/license/mit
+  license:
+    name: MIT License
+    identifier: MIT
 
 tags:
   - name: bookings
@@ -39,7 +37,7 @@ paths:
         "400":
           description: Invalid request.
           content:
-            application/json:
+            application/problem+json:
               schema:
                 $ref: "#/components/schemas/ProblemDetail"
 
